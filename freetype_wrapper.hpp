@@ -8,7 +8,7 @@
 #include <ft2build.h>
 #include FT_FREETYPE_H
 
-#include "string_helpers.hpp"
+#include "iconv_wrapper.hpp"
 #include <vector>
 
 typedef struct

@@ -1,5 +1,5 @@
-#ifndef __STRING_HELPERS_H
-#define __STRING_HELPERS_H
+#ifndef __ICONV_WRAPPER_H
+#define __ICONV_WRAPPER_H
 
 //#include <list>
 //#include <map>

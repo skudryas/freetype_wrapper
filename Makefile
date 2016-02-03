@@ -2,7 +2,7 @@ all: libfreetype_wrapper.a
 
 CPPFLAGS=-I/usr/include/freetype2 
 
-libfreetype_wrapper.a: freetype_wrapper.o string_helpers.o
+libfreetype_wrapper.a: freetype_wrapper.o iconv_wrapper.o
 	$(AR) rcs $@ $^
 	
 %.o: %.cpp

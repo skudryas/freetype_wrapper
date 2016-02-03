@@ -1,7 +1,7 @@
 #include <vector>
 
 #include <iconv.h>
-#include "string_helpers.hpp"
+#include "iconv_wrapper.hpp"
 
 namespace
 {
